@@ -198,7 +198,7 @@ const ContactMessagesPage = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="space-y-6">
-        {/* Header */}
+
         <div className="flex justify-between items-start">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tight">Contact Messages</h1>
@@ -212,7 +212,7 @@ const ContactMessagesPage = () => {
           </Button>
         </div>
 
-        {/* Stats Cards */}
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <Card>
             <CardContent className="pt-6">
@@ -240,11 +240,11 @@ const ContactMessagesPage = () => {
           </Card>
         </div>
 
-        {/* Filters */}
+
         <Card>
           <CardContent className="pt-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {/* Search */}
+
               <div className="flex items-center space-x-2">
                 <Search className="h-4 w-4 text-gray-400" />
                 <Input
@@ -255,18 +255,12 @@ const ContactMessagesPage = () => {
                 />
               </div>
 
-              {/* Status Filter */}
+
               <Select value={statusFilter} onValueChange={setStatusFilter}>
                 <SelectTrigger>
                   <SelectValue placeholder="Filter by status" />
                 </SelectTrigger>
-                {/* <SelectContent>
-                  <SelectItem value="all">All Status</SelectItem>
-                  <SelectItem value="new">New</SelectItem>
-                  <SelectItem value="read">Read</SelectItem>
-                  <SelectItem value="responded">Responded</SelectItem>
-                  <SelectItem value="archived">Archived</SelectItem>
-                </SelectContent> */}
+
 
                 <SelectContent>
                   <SelectItem value="all">All Status</SelectItem>
@@ -278,7 +272,6 @@ const ContactMessagesPage = () => {
 
               </Select>
 
-              {/* Inquiry Type Filter */}
               <Select value={inquiryTypeFilter} onValueChange={setInquiryTypeFilter}>
                 <SelectTrigger>
                   <SelectValue placeholder="Filter by inquiry type" />
@@ -295,7 +288,7 @@ const ContactMessagesPage = () => {
           </CardContent>
         </Card>
 
-        {/* Messages Table */}
+
         <Card>
           <CardHeader>
             <CardTitle>Messages</CardTitle>
@@ -415,7 +408,7 @@ const ContactMessagesPage = () => {
         </Card>
       </div>
 
-      {/* View Message Modal */}
+
       {selectedMessage && isViewModalOpen && (
         <AlertDialog open={isViewModalOpen} onOpenChange={setIsViewModalOpen}>
           <AlertDialogContent className="max-w-2xl">

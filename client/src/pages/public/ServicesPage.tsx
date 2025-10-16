@@ -135,7 +135,7 @@ const ServicesPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
-      {/* Hero Section */}
+
       <section className="relative overflow-hidden bg-gradient-to-r from-green-600 to-blue-600 text-white">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative container mx-auto px-4 py-20">
@@ -169,7 +169,7 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      {/* Core Features */}
+
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">

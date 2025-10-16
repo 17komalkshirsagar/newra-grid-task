@@ -159,7 +159,7 @@ const ContactPage = () => {
   };
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
-      {/* Hero Section */}
+
       <section className="relative overflow-hidden bg-gradient-to-r from-green-600 to-blue-600 dark:from-green-800 dark:to-blue-800 text-white">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative container mx-auto px-4 py-20">
@@ -370,17 +370,7 @@ const ContactPage = () => {
                       </>
                     )}
                   </Button>
-                  {/* <div className="flex-1 h-[500px] lg:h-auto">
-                    <iframe
-                      title="NewRa Grids Location"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.824956384787!2d75.36299561526951!3d19.887264318447153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bded8b0b0e7c111%3A0x0000000000000000!2sNewRa%20GridsH%2F40!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
-                      width="100%"
-                      height="100%"
-                      style={{ border: 0 }}
-                      allowFullScreen
-                      loading="lazy"
-                    ></iframe>
-                  </div> */}
+
                 </form>
               </CardContent>
             </Card>

@@ -203,7 +203,7 @@ const AboutPage = () => {
               </div>
             </div>
 
-            {/* Timeline */}
+
             <div className="space-y-8">
               <motion.div
                 className="flex items-center justify-center mb-3"

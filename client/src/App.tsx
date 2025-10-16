@@ -10,7 +10,7 @@ import NotFoundPage from './components/NotFoundPage';
 import DemoAutoLogin from './components/DemoAutoLogin';
 import { WhatsAppButton } from './components/ui/WhatsAppButton';
 
-// Lazy load admin pages
+
 const LoginPage = React.lazy(() => import('./auth/login/LoginPage'));
 const RegisterPage = React.lazy(() => import('./auth/register/RegisterPage'));
 const ForgotPasswordPage = React.lazy(() => import('./auth/forgot-password/ForgotPasswordPage'));
@@ -28,7 +28,7 @@ const UserTablePage = React.lazy(() => import('./pages/user-management/table/Use
 const IntegrationCreatePage = React.lazy(() => import('./pages/integration-management/add/IntegrationCreatePage'));
 const IntegrationEditPage = React.lazy(() => import('./pages/integration-management/edit/IntegrationEditPage'));
 const IntegrationTablePage = React.lazy(() => import('./pages/integration-management/table/IntegrationTablePage'));
-// const LogViewerPage = React.lazy(() => import('./pages/logs/LogViewerPage'));
+
 
 
 const ReportTablePage = React.lazy(() => import('./pages/report-management/ReportTablePage'));

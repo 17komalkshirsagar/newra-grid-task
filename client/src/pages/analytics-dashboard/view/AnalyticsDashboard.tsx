@@ -169,9 +169,9 @@ const AnalyticsDashboard = () => {
           </Card>
         </div>
 
-        {/* Charts Row 1 */}
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Monthly Trends */}
+
           <Card>
             <CardHeader>
               <CardTitle>Monthly Consumption & Cost Trends</CardTitle>
@@ -215,7 +215,7 @@ const AnalyticsDashboard = () => {
             </CardContent>
           </Card>
 
-          {/* Peak/Off-Peak Usage */}
+
           <Card>
             <CardHeader>
               <CardTitle>Peak vs Off-Peak Usage</CardTitle>
@@ -267,9 +267,9 @@ const AnalyticsDashboard = () => {
           </Card>
         </div>
 
-        {/* Charts Row 2 */}
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Cost Breakdown */}
+
           <Card>
             <CardHeader>
               <CardTitle>Cost Breakdown Analysis</CardTitle>
@@ -293,7 +293,7 @@ const AnalyticsDashboard = () => {
                       fill="#8884d8"
                       dataKey="value"
                     >
-                      {/* {costBreakdown.map((entry:any, index:any) => ( */}
+
                       {costBreakdown.map((index: any) => (
                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                       ))}
@@ -313,7 +313,7 @@ const AnalyticsDashboard = () => {
           </Card>
 
 
-          {/* Tariff Comparison */}
+
           <Card>
             <CardHeader>
               <CardTitle>Tariff Optimization Opportunities</CardTitle>

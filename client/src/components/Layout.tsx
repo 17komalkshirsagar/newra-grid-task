@@ -46,63 +46,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       icon: Home,
       current: location.pathname === '/admin/dashboard',
     },
-    // {
-    //   name: 'Bill Parsing',
-    //   href: '/admin/bill-parsing',
-    //   icon: FileText,
-    //   current: location.pathname.startsWith('/admin/bill-parsing'),
-    //   children: [
-    //     { name: 'Upload Bill', href: '/admin/bill-parsing/add' },
-    //     { name: 'View Bills', href: '/admin/bill-parsing/table' },
-    //   ],
-    // },
-    // {
-    //   name: 'Scenario Simulation',
-    //   href: '/admin/scenario-simulation',
-    //   icon: Calculator,
-    //   current: location.pathname.startsWith('/admin/scenario-simulation'),
-    //   children: [
-    //     { name: 'Create Scenario', href: '/admin/scenario-simulation/add' },
-    //     { name: 'View Scenarios', href: '/admin/scenario-simulation/table' },
-    //   ],
-    // },
-    // {
-    //   name: 'Analytics',
-    //   href: '/admin/analytics-dashboard/view',
-    //   icon: BarChart3,
-    //   current: location.pathname.startsWith('/admin/analytics-dashboard'),
-    // },
+
     {
       name: 'Contact',
       href: '/admin/contact',
       icon: FileBarChart,
       current: location.pathname === '/admin/contact',
     },
-    // {
-    //   name: 'Integration Management',
-    //   href: '/admin/integration-management',
-    //   icon: Database,
-    //   current: location.pathname.startsWith('/admin/integration-management'),
-    //   children: [
-    //     { name: 'Add Integration', href: '/admin/integration-management/add' },
-    //     { name: 'View Integrations', href: '/admin/integration-management/table' },
-    //   ],
-    // },
-    // {
-    //   name: 'System Logs',
-    //   href: '/admin/logs',
-    //   icon: Activity,
-    //   current: location.pathname === '/admin/logs',
-    // },
-    // {
-    //   name: 'Report Management',
-    //   href: '/admin/report-management',
-    //   icon: FileBarChart,
-    //   current: location.pathname.startsWith('/admin/report-management'),
-    //   children: [
-    //     { name: 'View Reports', href: '/admin/report-management/table' },
-    //   ],
-    // },
+
     {
       name: 'User Management',
       href: '/admin/user-management',

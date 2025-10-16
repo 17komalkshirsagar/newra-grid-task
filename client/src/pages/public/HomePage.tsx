@@ -31,13 +31,7 @@ import Video7 from './../../../src/video/video7.mp4';
 import Video8 from './../../../src/video/video8.mp4';
 
 
-// import images1 from '../../images/image1.jpeg';
-// import images2 from '../../images/image2.jpeg';
-// import images3 from '../../images/image3.jpeg';
-// import images4 from '../../images/image4.jpeg';
-// import images5 from '../../images/image5.jpeg';
-// import images6 from '../../images/image6.jpeg';
-// import images7 from '../../images/image7.jpeg';
+
 
 const HomePage = () => {
   const fadeInUp = {
@@ -121,15 +115,7 @@ const HomePage = () => {
     },
   ];
 
-  // const images = [
-  //   '/images/image1.jpeg',
-  //   '/images/image2.jpeg',
-  //   '/images/image3.jpeg',
-  //   '/images/image4.jpeg',
-  //   '/images/image5.jpeg',
-  //   '/images/image6.jpeg',
-  //   '/images/image7.jpeg'
-  // ];
+
 
   const solarImages = [
     "https://plus.unsplash.com/premium_photo-1680129602397-f43e2d81617d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c29sYXIlMjBlbmVyeSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
@@ -385,46 +371,6 @@ const HomePage = () => {
 
 
 
-      {/* <div className="overflow-hidden group">
-        <motion.div
-          className="flex gap-6 py-4 whitespace-nowrap"
-          animate={{ x: ['0%', '-100%'] }}
-          transition={{ repeat: Infinity, duration: 40, ease: 'linear' }}
-          style={{
-            animationPlayState: 'running',
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.animationPlayState = 'paused';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.animationPlayState = 'running';
-          }}
-        >
-          {videoCategories.concat(videoCategories).map((item, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: (index % videoCategories.length) * 0.1 }}
-              whileHover={{ scale: 1.05, y: -5 }}
-              className="cursor-pointer group min-w-[300px]"
-            >
-              <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300 border-0 bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900">
-                <div className="relative w-full h-64 rounded-xl overflow-hidden">
-                  <video
-                    src={item.video}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 rounded-xl"
-                  />
-                </div>
-              </Card>
-            </motion.div>
-          ))}
-        </motion.div>
-      </div> */}
 
       <div className="overflow-hidden group mt-6">
         <motion.div
@@ -455,7 +401,7 @@ const HomePage = () => {
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 rounded-2xl"
                   />
 
-                  {/* Overlay Info */}
+
                   <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/60 to-transparent p-4 text-white">
                     <h3 className="text-lg font-semibold">
                       {item.title || "Video Title"}
@@ -476,35 +422,6 @@ const HomePage = () => {
         </motion.div>
       </div>
 
-      {/* image */}
-      {/* <div className="overflow-hidden w-full">
-        <motion.div
-          className="flex gap-6 py-4 whitespace-nowrap"
-          animate={{ x: ['0%', '-100%'] }}
-          transition={{ repeat: Infinity, duration: 40, ease: 'linear' }}
-          style={{ display: 'flex' }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.animationPlayState = 'paused';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.animationPlayState = 'running';
-          }}
-        >
-          {[...images, ...images].map((src, index) => (
-            <motion.div
-              key={index}
-              className="min-w-[300px] cursor-pointer"
-              whileHover={{ scale: 1.05 }}
-            >
-              <img
-                src={src}
-                alt={`carousel-${index}`}
-                className="w-full h-64 object-cover rounded-xl transition-transform duration-300"
-              />
-            </motion.div>
-          ))}
-        </motion.div>
-      </div> */}
 
 
       <div className="overflow-hidden mt-6">

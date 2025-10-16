@@ -99,7 +99,7 @@ const PublicFooter = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="space-y-3">

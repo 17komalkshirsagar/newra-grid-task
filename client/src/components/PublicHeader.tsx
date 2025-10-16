@@ -42,7 +42,7 @@ const PublicHeader = () => {
     <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 shadow-sm transition-colors">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+
           <Link to="/" className="flex items-center space-x-2">
             <Zap className="h-8 w-8 text-green-600" />
             <div>
@@ -51,7 +51,7 @@ const PublicHeader = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation & Search */}
+
           <div className="hidden lg:flex items-center space-x-6">
             <nav className="flex items-center space-x-6">
               {navigation.map((item) => (
@@ -104,7 +104,7 @@ const PublicHeader = () => {
             </Button>
           </div>
 
-          {/* Mobile menu button */}
+
           <Button
             variant="ghost"
             size="sm"
@@ -119,11 +119,11 @@ const PublicHeader = () => {
           </Button>
         </div>
 
-        {/* Mobile Navigation */}
+
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
             <div className="py-4 space-y-4">
-              {/* Mobile Search */}
+
               <div className="relative px-4">
                 <Search className="absolute left-7 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
                 <Input
@@ -151,7 +151,7 @@ const PublicHeader = () => {
                 </Link>
               ))}
               <div className="pt-4 border-t border-gray-200 dark:border-gray-700 space-y-2 px-4">
-                {/* Mobile Theme Toggle */}
+
                 <Button
                   variant="ghost"
                   className="w-full justify-start"
